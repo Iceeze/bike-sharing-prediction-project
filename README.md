@@ -17,3 +17,18 @@
 - Ермишин Данил (ИТ-7-23)
 - Попов Михаил (ИТ-7-23)
 - Сергеев Константин (ИТ-8-23)
+
+
+## Локальное развёртывание
+
+`git clone https://github.com/Iceeze/bike-sharing-prediction-project.git`
+
+`cd bike-sharing-prediction-project`
+
+`pip install -r requirements.txt`
+
+`python src/app.py`
+
+перейдите в браузере http://127.0.0.1:7860/
+
+Введите данные и нажмите кнопку "Submit", после чего справа появится вывод ожидаемого спроса велосипедов в этот час
